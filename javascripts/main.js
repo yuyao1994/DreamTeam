@@ -1,3 +1,8 @@
+window.onload = function(){  
+    randomcolor();  
+    ChangeLogo();
+    hidden();
+}; 
 console.log('这里是梦之队');
 /**颜色渐变**/
 function randomcolor(){
@@ -49,17 +54,5 @@ var divs=document.querySelectorAll("div .section");
     		}
     	}
     	 }
-/**window共享事件**/
-function addLoadEvent(func){  
-    var oldonload = window.onload;  
-    if (typeof window.onload !='function') {  
-        window.onload= func;  
-    }else{window.onload=function(){  
-        oldonload();  
-        func();  
-        }  
-    };  
-};  
-addLoadEvent(randomcolor());
-addLoadEvent(ChangeLogo());
-addLoadEvent(hidden());
+
+
