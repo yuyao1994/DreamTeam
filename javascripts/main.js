@@ -61,5 +61,5 @@ function addLoadEvent(func){
     };  
 };  
 addLoadEvent(randomcolor);
-addLoadEvent(ChangeLogo;
-addLoadEvent(hidden;
+addLoadEvent(ChangeLogo);
+addLoadEvent(hidden);
