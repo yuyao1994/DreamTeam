@@ -1,5 +1,6 @@
-var span=document.getElementsByTagName("span");
-var getRandomColor = function(){    
+window.onload=function randomcolor(){
+  var span=document.getElementsByTagName("span");
+  var getRandomColor = function(){    
 
   return (function(m,s,c){    
     return (c ? arguments.callee(m,s,c-1) : '#') +    
@@ -16,3 +17,5 @@ function ChangeColor(){
 setTimeout('ChangeColor()',2000); 
 }
 ChangeColor();
+  
+}
