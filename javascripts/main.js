@@ -60,6 +60,6 @@ function addLoadEvent(func){
         }  
     };  
 };  
-addLoadEvent(randomcolor);
-addLoadEvent(ChangeLogo);
-addLoadEvent(hidden);
+addLoadEvent(randomcolor());
+addLoadEvent(ChangeLogo());
+addLoadEvent(hidden());
