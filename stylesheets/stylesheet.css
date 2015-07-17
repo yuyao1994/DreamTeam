@@ -51,6 +51,7 @@ list-style: none;
   .section{
   	width: 100%;
   height: 670px;
+  display:none;
   }
   .section1{
     text-align: center;
