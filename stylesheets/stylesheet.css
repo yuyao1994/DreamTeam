@@ -1,30 +1,21 @@
-/**CSS初始化**/
-	 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
-body{font:16px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
-a{color:#2d374b;text-decoration:none}
-a:hover{color:#cd0200;text-decoration:underline}
-em{font-style:normal}
-li{list-style:none}
-img{border:0;vertical-align:middle}
-table{border-collapse:collapse;border-spacing:0}
-p{word-wrap:break-word}
-/**样式表**/
-html{
-	overflow: hidden;
-  height: 100%;
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select
+{
+ margin: 0;
+      padding: 0;
+     }
+li
+{   	
+list-style: none;
 }
-body{
-	  overflow: hidden;
-  height: 100%;
-}
-header{width: 100%;
-  height: 100px;
-  text-align: center;
-  font-family: "微软雅黑";
-  font-size: 22px;
-}
-#menu{
-	position: fixed;
+     a{
+     	text-decoration: none;
+     }
+     html,body{
+     	  overflow: hidden;
+          height: 100%;
+     }
+     #menu{
+     	position: fixed;
   z-index: 999;
   top: 25%;
   left: 30px;
@@ -32,33 +23,67 @@ header{width: 100%;
   height: 40px;
   padding: 0;
   margin: 0;
-}
-#logo{
-	color: #2d374b;
+     }
+     #logo{
+     	  color: #2d374b;
   text-decoration: none;
-}
-#logo img{
-  margin-left: 28px;
+     }
+     #logo img{
+     	margin-left: 28px;
   width: 60px;
   height: 60px;
   border: 2px solid white;
   border-radius: 50%;
-}
-#menu li{
-  text-align: center;
+     }
+     #menu li{
+     	  text-align: center;
   margin: 10px;
   color: #000;
   background: #fff;
   background: rgba(255,255,255, 0.5);
   -webkit-border-radius: 10px;
   border-radius: 10px;
-}
-#menu li a{
-	padding: 9px 18px;
-   display: block;
-}
-#descripition{
-	height: 100%;
+     }
+  #menu li a{
+  	  padding: 9px 18px;
+  display: block;
+  }
+  .section{
+  	width: 100%;
+  height: 670px;
+  }
+  .section1{
+    text-align: center;
+    line-height: 200px;
+    background-image: url("images\bd.png");
+  }
+  #bd{
+  	width: 100%;
+  height: auto!important;
   position: relative;
-  touch-action: none;
-}
+  min-height: 600px;
+  }
+  #bdsp{
+  	position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 999;
+  }
+  #lr-wrap{
+  	  width: 100%;
+  height: 670px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #A0522D;
+  }
+  #lr-icon img{
+  	width: 150px;
+   height: 150px;
+   border: 2px solid white;
+   border-radius: 50%;
+   margin: 80px auto;
+  }
+  #lr-wrap p{
+  	font-family: "Comic Sans MS","骞煎渾","榛戜綋",cuisive;
+  font-size: 20px;
+  }
