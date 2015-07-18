@@ -1,16 +1,17 @@
 /*-------------------------------general setting----------------------------------*/
-body {	
+#Brant {	
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	font-size: 70%;
 	text-align: center;
+	background-color: #1abc9c;
 	font-family: "Microsoft Yahei", 'Hiragino Sans GB', 'Source Han Sans',  sans-serif;
 }
-.wrap {
+.Brant-wrap {
 	padding: 10%;
 }
-#center {
+#Brant-center {
 	float: right;
 	width: 40%;
 	color: #1abc9c;
@@ -19,7 +20,10 @@ body {
 	margin-bottom: -5000px;
 	box-shadow: -2px 0 16px 2px #666;
 }
-#right {
+#Brant-center p {
+	color: #1abc9c;
+}
+#Brant-right {
 	float: right;
 	width: 40%;
 	color: #ecf0f1;
@@ -28,81 +32,86 @@ body {
 	margin-bottom: -5000px;	
 	box-shadow: -2px 0 16px 2px #666;
 }
+#Brant-right p {
+	color: #ecf0f1;
+}
 /*-----------------------------------pictures-------------------------------------*/
-#logo img {
+#Brant-logo img {
 	width: 120px;
 	height: 120px;
 	border: 3px solid #1abc9c;
 	border-radius: 50%;
 }
-#logo img:hover {
+#Brant-logo img:hover {
 	border: 3px solid #e74c3c;
 }
-#social img {
+#Brant-social img {
 	display: inline-block;
-	width: 30px;
 	height: 30px;
 	padding-left: 20px;
 	padding-right: 20px; 
 }
 #wanted::before {
 	content: "";
-	background: url(img/wanted.png) no-repeat;
+	background: url(Brant/img/wanted.png) no-repeat;
 	background-size: 18px;
 	background-position: 0 center;
 	padding-right: 25px;
 }
 #profile::before {
 	content: "";
-	background: url(img/profile.png) no-repeat;
+	background: url(Brant/img/profile.png) no-repeat;
 	background-size: 18px;
 	background-position: 0 center;
 	padding-right: 25px;
 }
 #homepage::before {
 	content: "";
-	background: url(img/homepage.png) no-repeat;
+	background: url(Brant/img/homepage.png) no-repeat;
 	background-size: 18px;
 	background-position: 0 center;
 	padding-right: 25px;
 }
 #mail::before {
 	content: "";
-	background: url(img/mail.png) no-repeat;
+	background: url(Brant/img/mail.png) no-repeat;
 	background-size: 18px;
 	background-position: 0 center;
 	padding-right: 25px;
 }
 /*------------------------------------links---------------------------------------*/
-a:link, a:visited {
+#Brant a:link, #Brant a:visited {
 	color: #1abc9c;
 	text-decoration: none;
 }
-a:hover {
+#Brant a:hover {
 	color: #e74c3c;
 	border-bottom: #EAEAEA;
 }
 /*-----------------------------------details--------------------------------------*/
-#social {
+#Brant-social {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-#info, #content {
+#Brant-info, #Brant-content {
 	margin: auto;
 	text-align: left;
 }
-#info {
+#Brant-info {
 	max-width: 200px;
 }
-#content {
+#Brant-content {
 	max-width: 500px;
 	line-height: 1.7em;
 }
-#content h1 {
+#Brant-content h1 {
 	margin-top: 50px;
 }
-#content #title {
+#Brant-content #title {
+	font-size: 300%;
+}
+#Brant-content #title-0 {
 	text-align: center;
 	font-size: 300%;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
