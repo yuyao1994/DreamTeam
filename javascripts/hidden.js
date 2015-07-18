@@ -19,11 +19,9 @@ function hidden() {
    lis[i].addEventListener("click",function(){
 
           for (var j = 0; j < divs.length; j++) {
-              console.log(j);
-              lis[j].className = "";
+              /*console.log(j);*/
               divs[j].style.display = "none";
           };
-          this.className = "select";
           divs[this.id].style.display = "block";
       })
     }
