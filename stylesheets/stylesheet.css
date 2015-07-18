@@ -1,4 +1,4 @@
-body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select
+﻿body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select
 {
  margin: 0;
       padding: 0;
@@ -135,9 +135,9 @@ list-style: none;
     border-radius: 50%;
     margin: 80px auto;
 }
-#qdy-wrap p{
-    font-family: "微软雅黑","幼圆","黑体",cuisive;
-    font-size: 36px;
+#qdy-wrap li {
+    font-family: "微软雅黑",cuisive;
+    font-size: 24px;
 }
 #yjk-wrap{
 
