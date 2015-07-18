@@ -3,23 +3,25 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	font-size: 70%;
 	text-align: center;
 	font-family: "Microsoft Yahei", 'Hiragino Sans GB', 'Source Han Sans',  sans-serif;
 }
 .wrap {
 	padding: 10%;
 }
-#left {
-	float: left;
+#center {
+	float: right;
 	width: 40%;
 	color: #1abc9c;
 	background-color: #ecf0f1;
 	padding-bottom: 5000px;
 	margin-bottom: -5000px;
+	box-shadow: -2px 0 16px 2px #666;
 }
 #right {
 	float: right;
-	width: 60%;
+	width: 40%;
 	color: #ecf0f1;
 	background-color: #1abc9c;
 	padding-bottom: 5000px;
@@ -40,8 +42,8 @@ body {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	padding-left: 30px;
-	padding-right: 30px; 
+	padding-left: 20px;
+	padding-right: 20px; 
 }
 #wanted::before {
 	content: "";
@@ -82,18 +84,18 @@ a:hover {
 }
 /*-----------------------------------details--------------------------------------*/
 #social {
-	margin-top: 120px;
-	margin-bottom: 120px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 #info, #content {
 	margin: auto;
 	text-align: left;
 }
 #info {
-	max-width: 256px;
+	max-width: 200px;
 }
 #content {
-	max-width: 700px;
+	max-width: 500px;
 	line-height: 1.7em;
 }
 #content h1 {
