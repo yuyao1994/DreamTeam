@@ -81,5 +81,35 @@ width:80px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
+ p.lead{
+            text-align: center;
+            margin:15px;
+			color:#fff;
+        }
+		p.well{
+		text-align: center;
+            margin:15px;
+			
+		}
+        ._panel{
+            width:355px;
+            margin:0 auto;
+            text-align: center;
+        }
+        p.bg-success{
+            height:40px;
+            width:150px;
+            font-size: 16px;
+            line-height:40px;
+            margin:0 auto;
+            text-align: center;
+        }
+		#_yjk_photo{
+		width:170px;
+		height:170px;
+		border:2px solid pink;
+		border-radius:50%;
+		margin:auto;
+		}
 /*number bar*/
 
