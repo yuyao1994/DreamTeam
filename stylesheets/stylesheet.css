@@ -76,6 +76,13 @@ list-style: none;
   left: 20%;
   z-index: 999;
   }
+  #bdsp p{
+    color:#000;	
+    font-size:18px;
+  }
+  #bdsp h1{
+    color:#000;
+  }
   #lr-wrap{
   	  width: 100%;
   height: 670px;
