@@ -1,0 +1,34 @@
+html,body{
+	height: 100%;
+}
+body{
+	background-image: url(../lt_images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	overflow: hidden;
+	color: #ccc;
+}
+.lt_container{
+	position: relative;
+}
+.lt_summary{
+	position: absolute;
+	top:400px;
+	left: 5%;
+}
+.lt_summary p{
+	font-family: "微软雅黑"; 
+	font-weight: 700;
+	opacity: .7;
+}
+.lt-self{
+
+	font-size: 1em;
+	line-height: 1em;
+	letter-spacing: .2em;
+
+}
+.lt_summary span{
+	color: red;
+	font-size: 1em;
+}
