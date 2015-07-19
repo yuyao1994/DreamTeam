@@ -27,7 +27,7 @@ ChangeColor();
   
 }
 /**改变logo**/
-/*function ChangeLogo(){
+function ChangeLogo(){
     var lis=document.getElementById("menu").getElementsByTagName("li");
     var logo=document.getElementById("logo");
     	 for(var i=0;i<lis.length;i++){
@@ -37,8 +37,8 @@ ChangeColor();
     	}
     })(i+1);
 }
-}*/
-function ChangeLogo(){
+}
+/*function ChangeLogo(){
         var lis=document.getElementById("menu").getElementsByTagName("li");
         var logo=document.getElementById("logo");
          for(var i=0;i<lis.length;i++){
@@ -48,7 +48,7 @@ function ChangeLogo(){
         }
     })(i+1);)
 }
-}
+}*/
 
 /**隐藏**/
 function hidden() {
