@@ -11,7 +11,7 @@ list-style: none;
      	text-decoration: none;
      }
      .select{
-      background-color: #000;
+      background-color: #000!important;
      }
 
      html,body{
