@@ -49,7 +49,7 @@ list-style: none;
   border-radius: 10px;
      }
   #menu li a{
-  	  padding: 9px
+  	  padding: 9px;
   display: block;
   }
    #menu li a:hover{
