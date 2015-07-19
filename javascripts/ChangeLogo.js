@@ -6,7 +6,7 @@ var logo=document.getElementById("logo");
     	   	return function(){
     		logo.src="images/logo-"+a+".jpg";
         }
-    })(i+1);)
+    })(i+1););
    /* var fun=lis[i].onclick=(function(a){
     	   	return function(){
     		logo.src="images/logo-"+a+".jpg";
