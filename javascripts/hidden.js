@@ -3,7 +3,7 @@ function hidden() {
     var lis = document.getElementById("menu").getElementsByTagName("li");
 
     var divs = document.querySelectorAll("div .section");
-    console.log(divs.length);
+ 
 
   for (var i = 0; i < lis.length; i++) {
         lis[i].id = i;
