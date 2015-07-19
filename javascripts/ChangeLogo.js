@@ -7,4 +7,4 @@ var logo=document.getElementById("logo");
     		logo.src="images/logo-"+a+".jpg";
         }
     })(i+1),false);
-
+}
