@@ -27,7 +27,7 @@ ChangeColor();
   
 }
 /**改变logo**/
-function ChangeLogo(){
+/*function ChangeLogo(){
     var lis=document.getElementById("menu").getElementsByTagName("li");
     var logo=document.getElementById("logo");
     	 for(var i=0;i<lis.length;i++){
@@ -37,7 +37,47 @@ function ChangeLogo(){
     	}
     })(i+1);
 }
+}*/
+function ChangeLogo(){
+        var lis=document.getElementById("menu").getElementsByTagName("li");
+        var logo=document.getElementById("logo");
+         for(var i=0;i<lis.length;i++){
+           lis[i].addEventListener("click",(function(a){
+            return function(){
+            logo.src="images/logo-"+a+".jpg";
+        }
+    })(i+1);)
 }
+}
+
 /**隐藏**/
+function hidden() {
+
+    var lis = document.getElementById("menu").getElementsByTagName("li");
+
+    var divs = document.querySelectorAll("div .section");
+    console.log(divs.length);
+
+  for (var i = 0; i < lis.length; i++) {
+        lis[i].id = i;
+   /*     lis[i].onclick = function() {
+            for (var j = 0; j < divs.length; j++) {
+                console.log(j);
+                lis[j].className = "";
+                divs[j].style.display = "none";
+            };
+            this.className = "select";
+            divs[this.id].style.display = "block";
+        }*/
+   lis[i].addEventListener("click",function(){
+
+          for (var j = 0; j < divs.length; j++) {
+              /*console.log(j);*/
+              divs[j].style.display = "none";
+          };
+          divs[this.id].style.display = "block";
+      })
+    }
+}
 
 
