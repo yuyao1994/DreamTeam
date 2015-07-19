@@ -35,7 +35,7 @@ function ChangeLogo(){
     	   	return function(){
     		logo.src="images/logo-"+a+".jpg";
     	}
-    })(i+1);
+    }(i+1);
 }
 }
 /*function ChangeLogo(){
