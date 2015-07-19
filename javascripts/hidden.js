@@ -20,8 +20,10 @@ function hidden() {
 
           for (var j = 0; j < divs.length; j++) {
               /*console.log(j);*/
+              lis[j].className = "";
               divs[j].style.display = "none";
           };
+           this.className = "select";
           divs[this.id].style.display = "block";
       })
     }
