@@ -1,0 +1,166 @@
+@font-face{
+	font-family: myFirstFont;
+	src: url('myFont.ttf');
+}
+html,body{
+height:100%;
+width:100%;
+margin:0;padding:0;
+}
+
+#yy_contant{
+        overflow:hidden;
+	font-size: 2em;
+	margin: 0px;
+	padding:0px;
+	background-image: url("bg-image.jpg");
+        background-size:cover;
+	width: 100%;
+	height: 100%;
+}
+.yy_right{
+	font-family: myFirstFont;
+	float: right;
+	width: 300px;
+	height: 500px;
+	margin-right: 20%;
+	margin-top: 5%;
+}
+.yy_span{
+	display: inline-block;
+	width: 400px;
+	height: 20px;
+
+}
+#yy_span1{
+	background:red;
+	width: 0px;
+	animation:myfirst 5s forwards;
+	-moz-animation:myfirst 5s forwards;
+	-webkit-animation:myfirst 5s forwards; 
+	-o-animation:myfirst 5s forwards; 
+}
+@keyframes myfirst
+{
+from {background:red;}
+to {background:red;
+	width:350px;}
+}
+@-moz-keyframes myfirst
+{
+from {background:red;}
+to {background:red;
+	width:350px;}
+}
+@-webkit-keyframes myfirst
+{
+from {background:red;}
+to {background:red;
+	width:350px;}
+}
+@-o-keyframes myfirst
+{
+from {background:red;}
+to {background:red;
+	width:350px;}
+}
+#yy_span2{
+	background:red;
+	width: 0px;
+	animation:mysecond 3s forwards;
+	-moz-animation:mysecond 3s forwards; 
+	-webkit-animation:mysecond 3s forwards; 
+	-o-animation:mysecond 3s forwards; 
+}
+@keyframes mysecond
+{
+from {background:red;}
+to {background:red;
+	width:250px;}
+}
+@-moz-keyframes mysecond
+{
+from {background:red;}
+to {background:red;
+	width:250px;}
+}
+@-webkit-keyframes mysecond
+{
+from {background:red;}
+to {background:red;
+	width:250px;}
+}
+@-o-keyframes mysecond
+{
+from {background:red;}
+to {background:red;
+	width:250px;}
+}
+#yy_span3{
+	background:red;
+	width: 0px;
+	animation:mythird 4s forwards;
+	-moz-animation:mythird 4s forwards;
+	-webkit-animation:mythird 4s forwards;
+	-o-animation:mythird 4s forwards; 
+}
+@keyframes mythird
+{
+from {background:red;}
+to {background:red;
+	width:300px;}
+}
+@-moz-keyframes mythird
+{
+from {background:red;}
+to {background:red;
+	width:300px;}
+}
+@-webkit-keyframes mythird
+{
+from {background:red;}
+to {background:red;
+	width:300px;}
+}
+@-o-keyframes mythird
+{
+from {background:red;}
+to {background:red;
+	width:300px;}
+}
+#yy_span4{
+	background:red;
+	width: 0px;
+	animation:myfourd 2s forwards;
+	-moz-animation:myfourd 2s forwards; 
+	-webkit-animation:myfourd 2s forwards; 
+	-o-animation:myfourd 2s forwards; 
+}
+@keyframes myfourd
+{
+from {background:red;}
+to {background:red;
+	width:200px;}
+}
+@-moz-keyframes myfourd
+{
+from {background:red;}
+to {background:red;
+	width:200px;}
+}
+@-webkit-keyframes myfourd
+{
+from {background:red;}
+to {background:red;
+	width:200px;}
+}
+@-o-keyframes myfourd
+{
+from {background:red;}
+to {background:red;
+	width:200px;}
+}
+.yy_foot{
+	margin-right: 10%;
+	width: 500px;
+}
