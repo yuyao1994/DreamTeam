@@ -1,5 +1,5 @@
 @font-face{
-	font-family: myFirstFont;
+	font-family: yy_FirstFont;
 	src: url('myFont.ttf');
 }
 html,body{
@@ -19,7 +19,7 @@ margin:0;padding:0;
 	height: 100%;
 }
 .yy_right{
-	font-family: myFirstFont;
+	font-family: yy_FirstFont;
 	float: right;
 	width: 300px;
 	height: 500px;
@@ -35,30 +35,30 @@ margin:0;padding:0;
 #yy_span1{
 	background:red;
 	width: 0px;
-	animation:myfirst 5s forwards;
-	-moz-animation:myfirst 5s forwards;
-	-webkit-animation:myfirst 5s forwards; 
-	-o-animation:myfirst 5s forwards; 
+	animation:yy_first 5s forwards;
+	-moz-animation:yy_first 5s forwards;
+	-webkit-animation:yy_first 5s forwards; 
+	-o-animation:yy_first 5s forwards; 
 }
-@keyframes myfirst
+@keyframes yy_first
 {
 from {background:red;}
 to {background:red;
 	width:350px;}
 }
-@-moz-keyframes myfirst
+@-moz-keyframes yy_first
 {
 from {background:red;}
 to {background:red;
 	width:350px;}
 }
-@-webkit-keyframes myfirst
+@-webkit-keyframes yy_first
 {
 from {background:red;}
 to {background:red;
 	width:350px;}
 }
-@-o-keyframes myfirst
+@-o-keyframes yy_first
 {
 from {background:red;}
 to {background:red;
@@ -67,30 +67,30 @@ to {background:red;
 #yy_span2{
 	background:red;
 	width: 0px;
-	animation:mysecond 3s forwards;
-	-moz-animation:mysecond 3s forwards; 
-	-webkit-animation:mysecond 3s forwards; 
-	-o-animation:mysecond 3s forwards; 
+	animation:yy_second 3s forwards;
+	-moz-animation:yy_second 3s forwards; 
+	-webkit-animation:yy_second 3s forwards; 
+	-o-animation:yy_second 3s forwards; 
 }
-@keyframes mysecond
+@keyframes yy_second
 {
 from {background:red;}
 to {background:red;
 	width:250px;}
 }
-@-moz-keyframes mysecond
+@-moz-keyframes yy_second
 {
 from {background:red;}
 to {background:red;
 	width:250px;}
 }
-@-webkit-keyframes mysecond
+@-webkit-keyframes yy_second
 {
 from {background:red;}
 to {background:red;
 	width:250px;}
 }
-@-o-keyframes mysecond
+@-o-keyframes yy_second
 {
 from {background:red;}
 to {background:red;
@@ -99,30 +99,30 @@ to {background:red;
 #yy_span3{
 	background:red;
 	width: 0px;
-	animation:mythird 4s forwards;
-	-moz-animation:mythird 4s forwards;
-	-webkit-animation:mythird 4s forwards;
-	-o-animation:mythird 4s forwards; 
+	animation:yy_third 4s forwards;
+	-moz-animation:yy_third 4s forwards;
+	-webkit-animation:yy_third 4s forwards;
+	-o-animation:yy_third 4s forwards; 
 }
-@keyframes mythird
+@keyframes yy_third
 {
 from {background:red;}
 to {background:red;
 	width:300px;}
 }
-@-moz-keyframes mythird
+@-moz-keyframes yy_third
 {
 from {background:red;}
 to {background:red;
 	width:300px;}
 }
-@-webkit-keyframes mythird
+@-webkit-keyframes yy_third
 {
 from {background:red;}
 to {background:red;
 	width:300px;}
 }
-@-o-keyframes mythird
+@-o-keyframes yy_third
 {
 from {background:red;}
 to {background:red;
@@ -131,30 +131,30 @@ to {background:red;
 #yy_span4{
 	background:red;
 	width: 0px;
-	animation:myfourd 2s forwards;
-	-moz-animation:myfourd 2s forwards; 
-	-webkit-animation:myfourd 2s forwards; 
-	-o-animation:myfourd 2s forwards; 
+	animation:yy_fourd 2s forwards;
+	-moz-animation:yy_fourd 2s forwards; 
+	-webkit-animation:yy_fourd 2s forwards; 
+	-o-animation:yy_fourd 2s forwards; 
 }
-@keyframes myfourd
+@keyframes yy_fourd
 {
 from {background:red;}
 to {background:red;
 	width:200px;}
 }
-@-moz-keyframes myfourd
+@-moz-keyframes yy_fourd
 {
 from {background:red;}
 to {background:red;
 	width:200px;}
 }
-@-webkit-keyframes myfourd
+@-webkit-keyframes yy_fourd
 {
 from {background:red;}
 to {background:red;
 	width:200px;}
 }
-@-o-keyframes myfourd
+@-o-keyframes yy_fourd
 {
 from {background:red;}
 to {background:red;
