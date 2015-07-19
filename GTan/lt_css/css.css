@@ -1,14 +1,11 @@
-html,body{
-	height: 100%;
-}
-body{
+
+
+	
+.lt_container{
 	background-image: url(../lt_images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
-	overflow: hidden;
-	color: #fff;
-}
-.lt_container{
+	height: 100%;
 	position: relative;
 }
 .lt_summary{
